@@ -1,1 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact – The Perpetual Hobbyist</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/blog.html">Blog</a>
+    <a href="/shop.html">Shop</a>
+    <a href="/community.html">Community</a>
+    <a href="/about.html">About</a>
+  </nav>
+</header>
+
+<div class="container">
+  <h1>Contact</h1>
+
+  <p>
+    Have a question, collaboration idea, or something you’re stuck on?
+    This is the right place.
+  </p>
+
+  <p>
+    I read every message. If it’s about products, resources, or the site,
+    I’ll get back to you as soon as I can.
+  </p>
+
+  <form name="contact" method="POST" data-netlify="true">
+    <input type="hidden" name="form-name" value="contact">
+
+    <p>
+      <label>
+        Your name<br>
+        <input type="text" name="name" required>
+      </label>
+    </p>
+
+    <p>
+      <label>
+        Your email<br>
+        <input type="email" name="email" required>
+      </label>
+    </p>
+
+    <p>
+      <label>
+        Message<br>
+        <textarea name="message" rows="6" required></textarea>
+      </label>
+    </p>
+
+    <p>
+      <button type="submit">Send message</button>
+    </p>
+  </form>
+</div>
+
+<footer>
+  © 2025 The Perpetual Hobbyist
+</footer>
+
+</body>
+</html>
 
